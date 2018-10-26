@@ -1,0 +1,10 @@
+<table class='table table-striped'>
+  <tr *ngFor='let eachItem of project'>
+    <td>{{eachItem.id}}</td>
+    <td>{{eachItem.projectName}}</td>
+    <td><img src={{eachItem.imageRef}}></td>
+    <td>{{eachItem.projectCost}}</td>
+    <td>{{eachItem.amountCollected}}</td>
+    <td>{{eachItem.dateOfCompletion}}</td>
+  </tr>
+</table>
